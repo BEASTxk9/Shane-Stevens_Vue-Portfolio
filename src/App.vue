@@ -83,7 +83,7 @@ footer{
   padding-bottom: 3rem;
   font-weight: 900;
   text-shadow: 5px 8px 7px rgba(255, 255, 255, 0.637);
-  text-decoration: 1.5px underline;
+  text-decoration: 2px underline;
 }
 
 #HEADING-TEXT{

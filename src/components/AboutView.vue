@@ -28,7 +28,7 @@
   <div class="container text-centert">
         <div class="row justify-content-center">
           <!-- image -->
-          <div class="col-md-3 col-sm-10">
+          <div class="col-md-4 col-sm-10">
             <img
               id="me"
               class="rounded-pill my-1"
@@ -37,7 +37,7 @@
             />
           </div>
 <!-- text -->
-          <div class="col-md-8 my-5 mx-4 text-black">
+          <div class="col-md-7 my-5 mx-4 text-black">
             <p>
               I matriculated in 2021 at
               <b
@@ -182,7 +182,7 @@ components: {
 /* sections */
 #about {
   padding-bottom: 5rem;
-  scroll-margin-block-start: 22em;
+  scroll-margin-block-start: 18em;
 }
 
 /* img */
@@ -203,7 +203,7 @@ color: rgb(0, 123, 255);
 text-decoration: underline;
 }
 
-@media only screen and (max-width: 790px){
+@media only screen and (max-width: 1250px){
 #me{
   width: 100%;
 }

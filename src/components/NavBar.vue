@@ -2,6 +2,13 @@
   <!-- sticky-navbar -->
   <nav class="navbar sticky-top">
     <div>
+      	<div class="waviy">
+					<a class="logo">
+						<span style="--i:1"><i class="fa-solid fa-house"></i></span>
+						<span style="--i:2">Shane Stevens</span>
+						<span style="--i:3"><i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3"></i></span>
+					</a>
+				</div>
      
     </div>
     <!-- button -->
@@ -23,9 +30,6 @@
       <div class="navbar-nav">
         <!-- links -->
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link mb-0 h5 " href="#header">Home</a>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link mb-0 h5 " href="#about">01-About</a>
                         </li>
@@ -113,5 +117,31 @@ a{
 .navbar-toggler{
   outline: none;
 }
+
+/* .navspin */
+
+.waviy {
+    position: relative;
+}
+
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.781);
+    color: rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+    animation: flip 3s ease-in-out infinite;
+    animation-delay: calc(.4s * var(--i))
+}
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg)
+    }
+}
+
 
 </style>

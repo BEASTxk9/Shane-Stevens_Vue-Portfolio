@@ -51,6 +51,12 @@
           data-bs-target="#exampleModal4"
           src="https://i.postimg.cc/R0khqh9X/Screenshot-2022-07-20-141409.jpg"
         />
+        <!-- calculator -->
+        	<img class="projectimg" data-bs-toggle="modal" data-bs-target="#exampleModal6"
+								src="https://i.postimg.cc/jqc2RPGD/calculator.png" />
+<!-- rainbow -->
+							<img class="projectimg" data-bs-toggle="modal" data-bs-target="#exampleModal5"
+								src="https://i.postimg.cc/4y2XVbgw/project-rainbow.png" />
       </div>
     </div>
 
@@ -247,6 +253,78 @@
 					</div>
 				</div>
 
+<!-- modal5 -->
+		<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5"
+					aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel5">Project-Rainbow</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-6">
+											<img class="image-fluid" src="https://i.postimg.cc/4y2XVbgw/project-rainbow.png" width="100%"
+												height="100%">
+										</div>
+										<div class="col-md-6">Project-Rainbow was created using HTML & CSS.</div>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-dark text-primary" data-bs-dismiss="modal"><a
+										class="text-primary" href="https://github.com/BEASTxk9/project-rainbow"
+										target="_blank">Github</a></button>
+								<button type="button" class="btn btn-dark text-primary">
+									<a class="text-primary" href="https://project-rainbow.netlify.app"
+										target="_blank">Live</a></button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal6 -->
+				<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6"
+					aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel6">Calculator</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-6">
+											<img class="image-fluid" src="https://i.postimg.cc/jqc2RPGD/calculator.png" width="100%"
+												height="100%">
+										</div>
+										<div class="col-md-6">
+											This projects was created using HTML & CSS. It was made to digitally display
+											how a
+											calculator looks like
+											but it is not functional, yet...
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-dark text-primary" data-bs-dismiss="modal"><a
+										class="text-primary" href="https://github.com/BEASTxk9/calculator"
+										target="_blank">Github</a></button>
+								<button type="button" class="btn btn-dark"><a class="text-primary"
+										href="https://verdant-bavarois-beffa9.netlify.app"
+										target="_blank">Live</a></button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
 		<!-- project links -->
         <div class="container">
 <h4 class="py-5">You
@@ -335,7 +413,7 @@ export default {
 #projects {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  scroll-margin-block-start: 22rem;
+  scroll-margin-block-start: 17.5rem;
 }
 
 .projects-container {

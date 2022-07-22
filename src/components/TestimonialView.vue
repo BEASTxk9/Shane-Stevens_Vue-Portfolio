@@ -151,7 +151,7 @@ export default {
   z-index: 1;
   height: 100vh;
   padding-top: 3rem;
-  scroll-margin-block-start: 23.7rem;
+  scroll-margin-block-start: 19.7rem;
 
 }
 
