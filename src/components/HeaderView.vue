@@ -1,6 +1,6 @@
 <template>
 
-<section id="header" class="w-100">
+<section id="header" class="w-100" defer>
 <!-- type writer -->
   <div class="container typewriter-container">
     <transition name="slide-right" appear>
@@ -104,7 +104,7 @@ export default{}
   overflow-x: hidden;
   z-index: 1;
   position: relative;
-  background-image: url("https://images6.alphacoders.com/775/775269.jpg");
+  background-image: url("https://images6.alphacoders.com/775/775269.jpg") defer;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 30vh;
