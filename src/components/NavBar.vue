@@ -6,14 +6,13 @@
     </div>
     <!-- button -->
     <button
-      class="navbar-toggler"
+      class="navbar-toggler b1 text-white bg-dark"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#navbarNavAltMarkup"
     >
       <span
-        ><img src="https://img.icons8.com/ios/50/000000/menu-squared-2--v1.png"
-      /></span>
+        ><i id="icon" class="fa-solid fa-bars"></i></span>
     </button>
 
     <!-- button content -->
@@ -61,11 +60,16 @@ nav {
 	position: sticky;
   font-size: large;
   opacity: 5px;
-  transition: all 0.8s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-nav:hover {
-  color: rgb(255, 255, 255);
+nav:hover{
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.4px);
+-webkit-backdrop-filter: blur(5.4px);
+font-size: 2rem;
 }
 
 nav a {
@@ -77,14 +81,12 @@ nav a {
   transition: all 0.4 ease-in-out;
 }
 
-nav a:active {
-	text-align: center;
-	justify-content: center;
-  color: red;
-  transition: all 0.4 ease-in-out;
-}
-
-a:hover {
+nav a:hover {
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.4px);
+-webkit-backdrop-filter: blur(5.4px);
 	text-align: center;
 	justify-content: center;
   color: rgb(0, 0, 0);
@@ -92,61 +94,12 @@ a:hover {
   transition: all 0.3s ease-in-out;
 }
 
-.a:hover:before{
-	text-align: center;
-	justify-content: center;
-	align-content: center;
-	color: rgb(255, 255, 255);
-    box-shadow: 12px 31px 37px rgba(0, 0, 0, 0.5);
-	width: 100%; 
-	left: auto; 
-	right: 0;
-  
+#icon{
+  font-size: 2rem;
 }
 
-.a:before{
-	text-align: center;
-	justify-content: center;
-    transition: all 0.5s ease-in-out;
-	content: ""; 
-	width: 0; 
-	height: 100%; 
-	position: absolute; 
-	border-bottom: 1px solid white;
-	color: rgb(255, 255, 255);
-	left: 0; 
-	top: 0; 
-	transition: 0.5s;
-	-webkit-transition: 0.5s;
-	-moz-transition: 0.5s;
-	-ms-transition: 0.5s;
-	-o-transition: 0.5s; 
-	z-index: -1;
+.navbar-toggler{
+  outline: none;
 }
-
-.a-layout, .a {		
-	justify-content: center;
-	text-align: center;
-	display: inline-flex;
-	margin: 0 5px 0 0;
-    width:130px;		
-	position: relative;
-	opacity: 0.999;
-	padding: 10px 10px;		
-	text-align:center;
-	color: rgb(255, 255, 255);
-    background-repeat: no-repeat;
-	border-radius:3px;		
-	border: none;
-	-moz-transition: 0.3s;
-	-ms-transition: 0.3s;
-	-o-transition: 0.3s;
-	-webkit-transition: 0.3s;
-    transition: 0.3s;
-	overflow:hidden;
-    position: relative;
-    top: -3rem; 
-}
-
 
 </style>
