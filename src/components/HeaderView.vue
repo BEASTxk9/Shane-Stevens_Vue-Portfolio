@@ -2,8 +2,9 @@
   <section id="header" class="showcase w-100" defer>
     <!-- background-vid -->
 <div class="video-container">
-				<video src="https://cdn.pixabay.com/vimeo/390688175/Winter%20-%2032184.mp4?width=1280&expiry=1658492328&hash=e7274363acb30e765c66f147de614bb561149ae3" autoplay muted loop></video>
-			</div>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/pe9vjl?autoplay=1&nocontrols=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;" defer></iframe></div>
+  
+	</div>
 <!-- data -->
 <div id="data" class="container">
     <!-- type writer -->
@@ -178,7 +179,11 @@ img {
     overflow: hidden;
 }
 
-.video-container video {
+iframe{
+margin-top: -10vh;
+}
+
+.video-container{
     min-width: 100%;
     min-height: 100%;
     position: absolute;
