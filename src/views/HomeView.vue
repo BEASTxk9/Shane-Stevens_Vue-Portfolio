@@ -2,15 +2,19 @@
 <!-- Main -->
 <main>
 <!-- About -->
-<About></About>
+
+<About />
 <!-- Resume -->
-<Resume></Resume>
+<!-- <div id="resume"></div> -->
+<Resume />
 <!-- Testimonial -->
-<Testimonial></Testimonial>
+<Testimonial />
 <!-- Projeccts -->
-<Projects></Projects>
+<!-- <div id="projects"></div> -->
+<Projects />
 <!-- Contact -->
-<Contact></Contact>
+<!-- <div id="contact"></div> -->
+<Contact />
 
 </main>
 
@@ -25,18 +29,18 @@ import Projects from "../components/ProjectsView.vue";
 import Contact from "../components/ContactView.vue";
 
 export default {
+
   name: 'HomeView',
   components: {
 About,
     Resume,
- Testimonial,
- Projects,
- Contact
+    Testimonial,
+    Projects,
+    Contact
   }
 }
 </script>
 
 <style scoped>
-
 
 </style>

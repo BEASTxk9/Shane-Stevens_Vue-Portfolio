@@ -23,11 +23,33 @@
     >
       <div class="navbar-nav">
         <!-- links -->
-        <router-link class="" to="/"
-          >Home<i class="fa-solid fa-house"></i
-        ></router-link>
+<router-link href="/" to="/">home main</router-link>
+        
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link mb-0 h5 " href="#header">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-0 h5 " href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-0 h5 " href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-0 h5" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-0 h5" href="#contact">Contact</a>
+                        </li>
+                    </ul>
 
-        <a href="#1" to="/">01-About</a>
+        
+
+        <!-- <router-link class="" to="/"
+          >Home<i class="fa-solid fa-house"></i
+        ></router-link> -->
+
+        <!-- <a href="#about" to="/">01-About</a> -->
 
         <div class="text-end py-1">
           <p>&copy;Made by Shane Stevens,2022</p>

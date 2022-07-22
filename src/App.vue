@@ -30,6 +30,8 @@ export default{
 </script>
 
 <style>
+
+
 /* html skeleton */
 body{
   background-color: white;
