@@ -1,7 +1,6 @@
 <template>
 <!-- Main -->
 <main>
-
 <!-- About -->
 <About></About>
 <!-- Resume -->

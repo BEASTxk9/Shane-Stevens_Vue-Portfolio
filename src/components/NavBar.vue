@@ -24,8 +24,10 @@
       <div class="navbar-nav">
         <!-- links -->
         <router-link class="" to="/"
-          >01-Home<i class="fa-solid fa-house"></i
+          >Home<i class="fa-solid fa-house"></i
         ></router-link>
+
+        <a href="#1" to="/">01-About</a>
 
         <div class="text-end py-1">
           <p>&copy;Made by Shane Stevens,2022</p>
@@ -55,11 +57,12 @@ nav a {
 	text-align: center;
 	justify-content: center;
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.897);
+  color: rgba(0, 0, 0, 0.897);
+  text-decoration: line-through rgba(0, 0, 0, 0.489);
   transition: all 0.4 ease-in-out;
 }
 
-nav a.router-link-exact-active {
+nav a:active {
 	text-align: center;
 	justify-content: center;
   color: red;
@@ -69,7 +72,9 @@ nav a.router-link-exact-active {
 a:hover {
 	text-align: center;
 	justify-content: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .a:hover:before{

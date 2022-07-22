@@ -5,15 +5,15 @@
       <div class="heading mx-5 py-1 row justify-content-center text-center">
     
         <div class="col-sm-1">
-              <transition name="fade" appear>
+      
            <h2 class="btn-layout2 b2">05-</h2>
-        </transition>
+       
          
         </div>
         <div class="col-sm-11">
-              <transition name="fade" appear>
+              
           <h2 id="HEADING-TEXT">CONTACT</h2>
-        </transition>
+       
           
         </div>
       </div>

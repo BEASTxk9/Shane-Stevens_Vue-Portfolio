@@ -5,7 +5,7 @@
   <div class="container typewriter-container">
     <transition name="slide-right" appear>
 	<h1 class="typewriter-text" >
-						<a href="#about" class="typewrite text-white" data-period="2000"
+						<a href="#about" class="typewrite text-white" data-period="2500"
 							data-type='[ "Hi there,", "Im Shane Stevens,"]'>
 						</a>
 					</h1>
@@ -109,10 +109,16 @@ export default{}
   background-repeat: no-repeat;
   padding-top: 30vh;
   height: 100vh;
+  font-size: 3rem;
 }
 
 img{
     color: white;
+}
+
+.typewrite{
+    font-size: 7rem;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 790px){

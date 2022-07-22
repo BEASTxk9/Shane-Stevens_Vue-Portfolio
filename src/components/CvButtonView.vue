@@ -34,7 +34,7 @@ button:hover{
 	height: 100%; 
 	position: absolute; 
 	background-color: rgb(255, 255, 255);
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	left: 0; 
 	top: 0; 
 	transition: 0.5s;
@@ -54,7 +54,8 @@ button:hover{
   
 }
 
-.btn-layout, .bttn {		
+.btn-layout, .bttn {	
+	box-shadow: 10px 10px 27px rgba(0, 0, 0, 0.4);	
 	display: inline-flex;
 	overflow-x: hidden;
 	margin: 0 5px 0 0;

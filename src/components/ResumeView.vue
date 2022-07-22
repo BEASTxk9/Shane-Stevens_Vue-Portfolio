@@ -69,6 +69,7 @@ export default {
           id: "2",
           year: "2019",
           name: "Cape Province Mountain Club | Cape Town, South Africa ",
+          title:"Title: Assistant",
           skill:
             "Skills Aquired: Communication skills and Time management skills",
           li: "Assisted at annual Table Mountain hiking challenge",
@@ -77,7 +78,9 @@ export default {
           id: "3",
           year: "2020",
           name: "South	African Red Cross Society | Cape Town, South Africa ",
-          li: "Volunteered to pack distribute food and toiletry parcels.",
+          title:"Title: Assistant",
+          skill: "Skills Aquired: Time management skills and People skills",
+          li: "Volunteered to pack distribute food and toiletry parcels.(Volunteered)",
         },
         {
           id: "4",
@@ -86,6 +89,7 @@ export default {
           title: "Title: Delivery, Collection and Installations",
           skill:
             "Skills Aquired: Navigational skills, Pool Cover Installation skills, Further	Developed Time management skills, and People skills.",
+            li: "(Work)"
         }
       ]
     };
@@ -98,15 +102,46 @@ export default {
   gap: 10px;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 1.5rem;
-  border-left: 2px solid rgb(54, 122, 182);
+  border-left: 2px solid rgb(0, 0, 0);
   height: 19.4rem;
   margin-right: 10px;
   padding-left: 1rem;
   padding-top: 1rem;
   transition: all 0.5s ease-in-out;
+  	box-shadow: 10px 10px 27px rgba(0, 0, 0, 0.4);	
+	overflow-x: hidden;
+	position: relative;	
+	overflow:hidden;
 }
 
-#card:hover {
-  box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.692);
+#card:before{
+    transition: all 0.5s ease-in-out;
+	content: ""; 
+	width: 0; 
+	height: 100%; 
+	position: absolute; 
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	left: 0; 
+	top: 0; 
+	transition: 0.8s;
+	-webkit-transition: 0.8s;
+	-moz-transition: 0.8s;
+	-ms-transition: 0.8s;
+	-o-transition: 0.8s; 
+	z-index: -1;
 }
+
+#card:hover:before{
+    box-shadow: 12px 31px 37px rgba(0, 0, 0, 0.5);
+	width: 100%; 
+	left: 0; 
+	right: auto; 
+}
+
+#card:hover{
+  color: white;
+}
+
+
 </style>

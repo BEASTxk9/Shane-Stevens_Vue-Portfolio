@@ -1,9 +1,8 @@
 <template>
 <section id="about">
-
         <!-- heading -->
     <div class="container text-center">
-      <div class="heading mx-5 py-1 row justify-content-center text-center">
+      <div id="1" class="heading mx-5 py-1 row justify-content-center text-center">
 
         <div class="col-sm-1">
           <transition name="fade" appear>
@@ -24,6 +23,7 @@
 <!-- data -->
   <div class="container text-centert">
         <div class="row justify-content-center">
+          <!-- image -->
           <div class="col-md-3 col-sm-10">
             <img
               id="me"
@@ -32,8 +32,8 @@
               height="520vh"
             />
           </div>
-
-          <div class="col-md-8 my-5 text-black">
+<!-- text -->
+          <div class="col-md-8 my-5 mx-4 text-black">
             <p>
               I matriculated in 2021 at
               <b
