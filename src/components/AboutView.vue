@@ -180,7 +180,7 @@ components: {
 /* sections */
 #about {
   padding-bottom: 5rem;
-  scroll-margin-block-start: 15em;
+  scroll-margin-block-start: 22em;
 }
 
 /* img */

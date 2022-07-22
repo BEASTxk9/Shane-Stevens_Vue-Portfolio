@@ -27,19 +27,19 @@
                             <a class="nav-link mb-0 h5 " href="#header">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mb-0 h5 " href="#about">About</a>
+                            <a class="nav-link mb-0 h5 " href="#about">01-About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mb-0 h5 " href="#resume">Resume</a>
+                            <a class="nav-link mb-0 h5 " href="#resume">02-Resume</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mb-0 h5 " href="#testimonial">Testimonial</a>
+                            <a class="nav-link mb-0 h5 " href="#testimonial">03-Testimonial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mb-0 h5" href="#projects">Projects</a>
+                            <a class="nav-link mb-0 h5" href="#projects">04-Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mb-0 h5" href="#contact">Contact</a>
+                            <a class="nav-link mb-0 h5" href="#contact">05-Contact</a>
                         </li>
                     </ul>
 
@@ -56,23 +56,24 @@ export default {};
 </script>
 
 <style scoped>
+.collapse{
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  top: -3rem;
+ background: rgba(255, 255, 255, 0.514);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.4px);
+-webkit-backdrop-filter: blur(5.4px);
+}
+
 nav {
 	position: sticky;
-  font-size: large;
   opacity: 5px;
   transition: all 0.5s ease-in-out;
 }
 
-nav:hover{
-background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5.4px);
--webkit-backdrop-filter: blur(5.4px);
-font-size: 2rem;
-}
-
 nav a {
+  font-size: 1.5rem;
 	text-align: center;
 	justify-content: center;
   font-weight: bold;
@@ -92,6 +93,17 @@ backdrop-filter: blur(5.4px);
   color: rgb(0, 0, 0);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+  text-shadow: 5px 5px 5px rgba(14, 227, 247, 1);
+}
+
+a{
+  margin-top: 1rem;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: center;
+  text-align: center;
+  width: fit-content;
 }
 
 #icon{

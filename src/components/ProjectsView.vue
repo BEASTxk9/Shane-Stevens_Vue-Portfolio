@@ -335,7 +335,7 @@ export default {
 #projects {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  scroll-margin-block-start: 14rem;
+  scroll-margin-block-start: 22rem;
 }
 
 .projects-container {

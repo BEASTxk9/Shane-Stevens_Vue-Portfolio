@@ -141,7 +141,7 @@ export default {};
 
 <style scoped>
 #contact {
-    scroll-margin-block-start: 19rem;
+    scroll-margin-block-start: 27rem;
   padding-bottom: 10vh;
 }
 /* form */
