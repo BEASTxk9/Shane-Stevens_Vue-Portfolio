@@ -1,5 +1,11 @@
 <template>
-  <section id="header" class="w-100" defer>
+  <section id="header" class="showcase w-100" defer>
+    <!-- background-vid -->
+<div class="video-container">
+				<video src="https://cdn.pixabay.com/vimeo/390688175/Winter%20-%2032184.mp4?width=1280&expiry=1658492328&hash=e7274363acb30e765c66f147de614bb561149ae3" autoplay muted loop></video>
+			</div>
+<!-- data -->
+<div id="data" class="container">
     <!-- type writer -->
     <div class="container typewriter-container">
       <transition name="slide-right" appear>
@@ -15,7 +21,7 @@
       </transition>
     </div>
     <!-- subheading -->
-    <div class="container mt-3">
+    <div class="container">
 
       <div class="row">
         <transition name="fade" appear>
@@ -52,6 +58,9 @@
 </div>
 
     </div>
+</div>
+
+    
   </section>
 </template>
 
@@ -124,13 +133,17 @@ export default {};
   color: white;
   overflow-x: hidden;
   z-index: -1;
-  background-image: url("https://images6.alphacoders.com/775/775269.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 30vh;
   height: 100vh;
 
   font-size: 3rem;
+}
+
+#data{
+    position: relative;
+    top: -5rem;
 }
 
 img {
@@ -140,6 +153,49 @@ img {
 .typewrite {
   font-size: 7rem;
   text-decoration: none;
+}
+
+/* landing */
+.showcase {
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.video-container {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.video-container:after {
+    content: '';
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
 }
 
 @media only screen and (max-width: 790px) {

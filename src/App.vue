@@ -95,7 +95,7 @@ footer{
 /* button2 */
 .b2:before{
   text-align: center;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 	content: ""; 
 	width: 0; 
 	height: 100%; 
@@ -104,11 +104,11 @@ footer{
 	color: rgb(255, 255, 255);
 	left: 0; 
 	top: 0; 
-	transition: 0.5s;
-	-webkit-transition: 0.5s;
-	-moz-transition: 0.5s;
-	-ms-transition: 0.5s;
-	-o-transition: 0.5s; 
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s; 
 	z-index: -1;
 }
 
