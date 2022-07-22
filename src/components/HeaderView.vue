@@ -133,6 +133,7 @@ export default {};
   color: white;
   overflow-x: hidden;
   z-index: -1;
+  background-image: url("https://i.postimg.cc/vmpSLmHw/Wallpaper-Dog-10918942-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 30vh;
