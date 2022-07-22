@@ -105,7 +105,7 @@
             >
               <a
                 class="text-primary"
-                href="https://github.com/BEASTxk9/project-rainbow"
+                href="https://github.com/BEASTxk9/Property_Finder-101"
                 target="_blank"
                 >Github</a
               >
@@ -166,7 +166,8 @@
             >
               <a
                 class="text-primary"
-                href="https://github.com/BEASTxk9/calculator"
+                href="
+                https://github.com/BEASTxk9/Shane-Stevens-Portfolio"
                 target="_blank"
                 >Github</a
               >
