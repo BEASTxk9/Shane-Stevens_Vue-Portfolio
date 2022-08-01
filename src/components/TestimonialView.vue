@@ -28,14 +28,14 @@
     <div id="card" class="item" v-for="item of TestimonialsArray" :key="item.id">
 <div class="container">
    <div class="row justify-content-center">
-    <div class="col-md-8 col-sm-6">
-      <img class=" py-3"  :src="item.image" :alt="item.name">
+    <div class="col-md-9 col-sm-10">
+      <img class=" py-1"  :src="item.image" :alt="item.name">
       </div>
       </div>
 </div>
  
                 <h4>{{ item.name }}</h4>
-                <p>{{ item.title }}</p>
+                <h4>{{ item.title }}</h4>
                 <h6>{{ item.text }}</h6>
     </div>
   </div>
@@ -135,16 +135,14 @@ export default {
 #card {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 1.5rem;
-  border-left: 2px solid rgb(54, 122, 182);
+
   height: 36rem;
   padding-left: 1rem;
+  padding-right: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   transition: all 0.5s ease-in-out;
-}
-
-#card:hover {
-  box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.692);
+  font-size: 0.5rem;
 }
 
 #testimonial{
@@ -159,7 +157,7 @@ img{
       transition: all 0.3s ease-in-out;
   -webkit-filter: grayscale(80%);
   filter: grayscale(80%);
-  height: 36vh;
+  height: 35vh;
   border-radius: 360px;
 }
 
@@ -177,7 +175,7 @@ overflow-x: hidden;
 
 }
 
-@media only screen and (max-width: 790px){
+@media only screen and (max-width: 767px){
 #testimonial{
   padding-bottom: 47rem;
 }
@@ -185,6 +183,11 @@ overflow-x: hidden;
 #card{
   height: 42rem;
 }
+
+img{
+  height: 40vh;
+}
+
 }
 
 

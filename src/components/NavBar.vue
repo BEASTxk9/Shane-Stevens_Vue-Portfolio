@@ -3,7 +3,7 @@
   <nav class="navbar sticky-top">
     <div>
       	<div class="waviy">
-					<a class="logo">
+					<a href="/" class="logo">
 						<span style="--i:1"><i class="fa-solid fa-house"></i></span>
 						<span style="--i:2">Shane Stevens</span>
 						<span style="--i:3"><i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3"></i></span>
@@ -61,9 +61,9 @@ export default {};
 
 <style scoped>
 .collapse{
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
   position: relative;
-  top: -3rem;
+  top: -3.2rem;
  background: rgba(255, 255, 255, 0.514);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5.4px);
@@ -72,8 +72,11 @@ backdrop-filter: blur(5.4px);
 
 nav {
 	position: sticky;
-  opacity: 5px;
   transition: all 0.5s ease-in-out;
+}
+
+nav:hover{
+  
 }
 
 nav a {
@@ -87,11 +90,6 @@ nav a {
 }
 
 nav a:hover {
-background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5.4px);
--webkit-backdrop-filter: blur(5.4px);
 	text-align: center;
 	justify-content: center;
   color: rgb(0, 0, 0);
@@ -116,12 +114,21 @@ a{
 
 .navbar-toggler{
   outline: none;
+  margin-right: 5px;
 }
 
 /* .navspin */
 
 .waviy {
     position: relative;
+    left: -1rem;
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+    background: transparent;
+}
+
+.waviy:hover{
+  opacity: 1;
 }
 
 .waviy span {
@@ -143,5 +150,13 @@ a{
     }
 }
 
+@media only screen and (max-width: 1000px){
+.waviy {
+    display: none;
+}
 
+.navbar-toggler{
+  margin-right: 5px;
+}
+}
 </style>

@@ -37,7 +37,7 @@
             />
           </div>
 <!-- text -->
-          <div class="col-md-7 my-5 mx-4 text-black">
+          <div id="about-info" class="col-md-7 my-5 mx-4 text-black text-start">
             <p>
               I matriculated in 2021 at
               <b
@@ -53,15 +53,14 @@
               marathon. Some of my hobbies include gaming, exercising, cycling,
               playing baseball, learning how to trade and increasing my Japanese
               knowledge through visual learning.
-            </p>
-            <p>
+            <br>
               I am very hardworking and do my best to achieve my goals. I
               possess the drive and endurance to take on any challenge as I view
               them as learning opportunities. I am <b>trustworthy</b> ,
               <b>open minded</b>, <b>reputable</b> and <b>approachable</b>.
             </p>
 
-            <div class="container">
+            <div id="about-info2" class="container">
               <div class="row">
                 <!-- left -->
                 <div class="col-sm-4">
@@ -81,7 +80,7 @@
               </div>
             </div>
 
-            <div class="container-fluid">
+            <div id="about-info2" class="container-fluid">
               <!-- row1 -->
               <div class="row">
                 <div class="col-md-4">
@@ -203,9 +202,19 @@ color: rgb(0, 123, 255);
 text-decoration: underline;
 }
 
+#about-info2{
+  position: relative;
+  left: -1.5rem;
+}
+
 @media only screen and (max-width: 1250px){
 #me{
   width: 100%;
+}
+
+#about-info{
+  margin-left: 1rem;
+  padding-left: 2rem;
 }
 }
 </style>

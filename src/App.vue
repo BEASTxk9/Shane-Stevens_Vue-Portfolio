@@ -181,10 +181,18 @@ footer{
     transition: all 2s ease;
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 767px) {
 #HEADING-TEXT{
   position: relative;
   left: 0;
+}
+
+.heading{
+  font-size: 0.5rem;
+}
+
+footer{
+  font-size: 0.7rem;
 }
 }
 </style>

@@ -467,4 +467,13 @@ export default {
      text-shadow: 6px 12px 9px black;
      font-size: 2rem;
 }
+
+@media only screen and (max-width: 767px){
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+}
 </style>

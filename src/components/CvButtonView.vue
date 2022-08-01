@@ -1,6 +1,6 @@
 <template>
 <Button class="btn-layout b mt-4">
-    <a class="text-black fw-6" href="https://docs.google.com/uc?export=download&id=11Hvd4rQPPHObrHz82UbG4-lnOBwt_X0v" target="_blank" download="https://docs.google.com/document/d/e/2PACX-1vRGyaErsl3o1p3Lza7PBa6QXn64JUGcKEao1TtUju-qchykfji6Q0EVnBcg1eK5JA/pub">Download CV</a>
+    <a class="text-black fw-6" href="https://docs.google.com/uc?export=download&id=11Hvd4rQPPHObrHz82UbG4-lnOBwt_X0v"  download="https://docs.google.com/document/d/e/2PACX-1vRGyaErsl3o1p3Lza7PBa6QXn64JUGcKEao1TtUju-qchykfji6Q0EVnBcg1eK5JA/pub">Download CV</a>
 </Button>
 </template>
 

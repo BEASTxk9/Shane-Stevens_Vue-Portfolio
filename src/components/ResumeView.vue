@@ -26,7 +26,7 @@
       <div class="row justify-content-center ">
         <div
           id="card"
-          class="col-md-5 col-sm-12 my-2"
+          class="col-md-4 col-sm-10 my-2"
           v-for="item of Work"
           :key="item.id"
         >
@@ -106,11 +106,12 @@ export default {
 }
 
 #card {
-  gap: 50px;
+  gap: 60px;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 1.5rem;
   border-left: 2px solid rgb(0, 0, 0);
   height: 19.4rem;
+  width: 42.3vw;
   margin-right: 10px;
   padding-left: 1rem;
   padding-top: 1rem;
@@ -151,5 +152,14 @@ export default {
   transform:  rotateY(-8deg);
 }
 
-
+@media only screen and (max-width: 767px){
+#card{
+  width: 92%;
+  padding: 10px;
+  height: 22.4rem;
+  margin: 1rem;
+  gap: 2rem;
+  border: 0.5px solid grey;
+}
+}
 </style>

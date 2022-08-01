@@ -75,7 +75,7 @@
 
             <div class="row justify-content-center">
               <!-- message -->
-              <div class="col-md-12 col-sm-8">
+              <div class="col-md-12 col-sm-12">
                 <label>5.Message</label><br />
                 <textarea
                   name="message"
@@ -88,44 +88,47 @@
             </div>
 
             <!-- button -->
-            <div class="col-md-12 col-sm-8 text-center">
+            <div class="row justify-content-center">
+ <div class="col-lg-12 col-sm-8 text-center">
               <button class="btn-layout3 b3 text-center my-3" type="submit">
                 <span class="text-center">Submit</span>
               </button>
             </div>
+            </div>
+           
           </form>
         </div>
 
         <!-- right -->
         <div class="col-lg-12 col-md-12 mt-5 text-start px-5">
           <!-- my contact info -->
-          <div class="container text-center px-5 py-5">
-            <div class="row">
+          <div id="contact-info" class="container text-center px-5 py-5">
+            <div class="row justify-content-center">
               <!-- phone no -->
-              <div class="col-sm-4">
+              <div class="col-sm-12 col-md-4">
                 <a href="tel:06708596682"
                   ><i id="contact-icons" class="fa-brands fa-whatsapp"></i
                 ></a>
-                <p>+27 67 859 6682</p>
+                <p id="info">+27 67 859 6682</p>
               </div>
 
               <!-- email -->
-              <div class="col-sm-4">
+              <div class="col-sm-12 col-md-4">
                 <a href="mailto:shanestevensxk9@gmail.com" target="_blank"
                   ><i id="contact-icons" class="fa-solid fa-envelope"></i
                 ></a>
-                <p>shanestevens@gmail.com</p>
+                <p id="info">shanestevensxk9@gmail.com</p>
               </div>
 
               <!-- location -->
-              <div class="col-sm-4">
+              <div class="col-sm-12 col-md-4">
                 <a
                   href="https://www.google.com/maps/place/Plumstead,+Cape+Town,+7801/@-34.0264953,18.4548908,14z/data=!3m1!4b1!4m5!3m4!1s0x1dcc424d7e933d0b:0xbd5bd6448b6553c2!8m2!3d-34.0259442!4d18.4761775"
                   target="_blank"
                 >
                   <i id="contact-icons" class="fa-solid fa-location-dot"></i>
                 </a>
-                <p>Plumstead / Cape Town</p>
+                <p id="info">Plumstead / Cape Town</p>
               </div>
             </div>
           </div>
@@ -150,10 +153,11 @@ export default {};
   transition: all 0.5s ease-in-out;
   box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.692);
   border-radius: 10px;
-  width: 50vw;
+  width: 100%;
 }
 
 input {
+  width: 60%;
   border: none;
   border-radius: 5px;
   padding-left: 10px;
@@ -166,6 +170,7 @@ input:hover {
 }
 
 textarea {
+  width: 80%;
   border: none;
   border-radius: 5px;
   padding-left: 10px;
@@ -262,17 +267,39 @@ a:hover {
   font-size: 1.8rem;
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 1000px) {
   #form {
     text-align: center;
     align-content: center;
     justify-content: center;
     text-align: center;
-    width: 80%;
+    width: 90%;
   }
 
   textarea {
-    width: 10rem;
+    width: 80%;
   }
+
+  #contact-info{
+    font-size: 0.8rem;
+  }
+
+  label{
+    display: none;
+  }
+
+button{
+  justify-content: center;
+  align-content: center;
+}
+
+#info{
+font-size: 0.7rem;
+gap: 1.5rem;
+justify-content: space-between;
+}
+
+
+
 }
 </style>
