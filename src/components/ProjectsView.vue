@@ -44,12 +44,12 @@
           data-bs-target="#exampleModal3"
           src="https://i.postimg.cc/qvmCBpz5/Screenshot-2022-07-20-141712.jpg"
         />
-        <!-- area of triangle -->
+        <!-- Roasted Beans -->
         <img
           class="projectimg"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal4"
-          src="https://i.postimg.cc/R0khqh9X/Screenshot-2022-07-20-141409.jpg"
+          src="https://i.postimg.cc/cHq51Sms/Screenshot-2022-10-10-122005.png"
         />
         <!-- calculator -->
         	<img class="projectimg" data-bs-toggle="modal" data-bs-target="#exampleModal6"
@@ -227,7 +227,7 @@
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLabel4">Area Caluculator</h5>
+								<h5 class="modal-title" id="exampleModalLabel4">Roasted Beans</h5>
 								<button type="button" class="btn-close" data-bs-dismiss="modal"
 									aria-label="Close"></button>
 							</div>
@@ -235,19 +235,19 @@
 								<div class="container">
 									<div class="row">
 										<div class="col-md-6">
-											<img class="image" src="https://i.postimg.cc/R0khqh9X/Screenshot-2022-07-20-141409.jpg"
+											<img class="image" src="https://i.postimg.cc/cHq51Sms/Screenshot-2022-10-10-122005.png"
 												width="100%">
 										</div>
-										<div class="col-md-6">This site allows your to Calculate the Area of a Triangle.</div>
+										<div class="col-md-6">E-commerce site that allows you to sign up, login, view profile, add to cart etc...</div>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-dark text-primary" data-bs-dismiss="modal"><a
-										class="text-primary" href="https://github.com/Emivw/college1"
+										class="text-primary" href="https://github.com/BEASTxk9/E-commerce-shop-vue"
 										target="_blank">Github</a></button>
 								<button type="button" class="btn btn-dark"><a class="text-primary"
-										href="https://endearing-mooncake-eefa89.netlify.app"
+										href="https://roasted-beans-b99e0.web.app/"
 										target="_blank">Live</a></button>
 							</div>
 						</div>
