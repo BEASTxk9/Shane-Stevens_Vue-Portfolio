@@ -21,7 +21,7 @@
 
     <div class="container justify-content-center">
       <div class="row justify-content-center">
-        <div class="col-sm-8">
+        <div class="col-sm-12">
         <!-- Form-left -->
         <div id="form" class="col-lg-8 col-md-8 mt-5">
           <form action="https://formspree.io/f/xayvpewl" method="post">
