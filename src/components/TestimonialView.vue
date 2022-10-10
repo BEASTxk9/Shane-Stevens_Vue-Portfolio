@@ -167,8 +167,8 @@ h4{
 
 p{
   text-align: start;
-  font-size: 0.82rem;
-  font-weight: 500;
+  font-size: 0.84rem;
+  font-weight: 600;
 }
 
 /* From uiverse.io by @alexruix */
@@ -223,13 +223,13 @@ img::before {
  letter-spacing: 0.05rem;
 }
 
-.text-body {
+/* .text-body {
  font-size: .8em;
  text-align: center;
  color: #6f6d78;
  font-weight: 400;
  font-style: italic;
-}
+} */
 
 @media only screen and (max-width: 767px){
 
