@@ -27,17 +27,19 @@ import Resume from "../components/ResumeView.vue";
 import Testimonial from "../components/TestimonialView.vue";
 import Projects from "../components/ProjectsView.vue";
 import Contact from "../components/ContactView.vue";
+import HeaderView from "@/components/HeaderView.vue";
 
 export default {
 
   name: 'HomeView',
   components: {
-About,
+    About,
     Resume,
     Testimonial,
     Projects,
-    Contact
-  }
+    Contact,
+    HeaderView
+}
 }
 </script>
 

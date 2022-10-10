@@ -3,7 +3,7 @@
   <nav class="navbar sticky-top">
     <div>
       	<div class="waviy">
-					<a href="/" class="logo">
+					<a href="#" class="logo">
 						<span style="--i:1"><i class="fa-solid fa-house"></i></span>
 						<span style="--i:2">Shane Stevens</span>
 						<span style="--i:3"><i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3"></i></span>

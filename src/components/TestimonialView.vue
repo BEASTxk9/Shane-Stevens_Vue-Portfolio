@@ -29,7 +29,15 @@
 <div class="container">
    <div class="row justify-content-center">
     <div class="col-md-9 col-sm-10">
-      <img class=" py-1"  :src="item.image" :alt="item.name">
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-12">
+            <img class="my-1"  :src="item.image" :alt="item.name">
+          </div>
+        </div>
+      </div>
+    
       </div>
       </div>
 </div>
@@ -146,8 +154,8 @@ export default {
 
 #testimonial{
   z-index: 1;
-  height: 100vh;
   padding-top: 3rem;
+  padding-bottom: 1rem;
   scroll-margin-block-start: 19.7rem;
 
 }
@@ -156,7 +164,7 @@ img{
   transition: all 0.3s ease-in-out;
   -webkit-filter: grayscale(80%);
   filter: grayscale(80%);
-  height: 35vh;
+  height: 30vh;
   border-radius: 360px;
   opacity: 0.9;
   padding-bottom: 10px;

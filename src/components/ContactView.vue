@@ -19,10 +19,11 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row col-sm-12 justify-content-center">
+    <div class="container justify-content-center">
+      <div class="row justify-content-center">
+        <div class="col-sm-8">
         <!-- Form-left -->
-        <div id="form" class="col-lg-12 col-md-12 mt-5">
+        <div id="form" class="col-lg-8 col-md-8 mt-5">
           <form action="https://formspree.io/f/xayvpewl" method="post">
             <h2 id="subheading" class="pt-3">Let's Get In Contact.</h2>
             <div class="row justify-content-center">
@@ -99,40 +100,8 @@
           </form>
         </div>
 
-        <!-- right -->
-        <div class="col-lg-12 col-md-12 mt-5 text-start px-5">
-          <!-- my contact info -->
-          <div id="contact-info" class="container text-center px-5 py-5">
-            <div class="row justify-content-center">
-              <!-- phone no -->
-              <div class="col-sm-12 col-md-4">
-                <a href="tel:06708596682"
-                  ><i id="contact-icons" class="fa-brands fa-whatsapp"></i
-                ></a>
-                <p id="info">+27 67 859 6682</p>
-              </div>
-
-              <!-- email -->
-              <div class="col-sm-12 col-md-4">
-                <a href="mailto:shanestevensxk9@gmail.com" target="_blank"
-                  ><i id="contact-icons" class="fa-solid fa-envelope"></i
-                ></a>
-                <p id="info">shanestevensxk9@gmail.com</p>
-              </div>
-
-              <!-- location -->
-              <div class="col-sm-12 col-md-4">
-                <a
-                  href="https://www.google.com/maps/place/Plumstead,+Cape+Town,+7801/@-34.0264953,18.4548908,14z/data=!3m1!4b1!4m5!3m4!1s0x1dcc424d7e933d0b:0xbd5bd6448b6553c2!8m2!3d-34.0259442!4d18.4761775"
-                  target="_blank"
-                >
-                  <i id="contact-icons" class="fa-solid fa-location-dot"></i>
-                </a>
-                <p id="info">Plumstead / Cape Town</p>
-              </div>
-            </div>
-          </div>
         </div>
+
       </div>
     </div>
   </section>
