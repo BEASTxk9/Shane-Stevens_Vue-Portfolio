@@ -131,7 +131,7 @@ export default {
   transition: all 0.3s ease-in-out;
   left: 10px;
   box-shadow: 0px 0px 42px rgb(18, 172, 183);
-  opacity: 0.5;
+  opacity: 0.2;
 }
 #myBtn:hover {
   background-color: rgb(0, 0, 0);
