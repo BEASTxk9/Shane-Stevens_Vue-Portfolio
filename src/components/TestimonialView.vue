@@ -26,7 +26,7 @@
 <div class="home-demo">
   <div class="owl-carousel owl-theme">
 
-    <div class="card" v-for="item of TestimonialsArray" :key="item.id">
+    <div v-if="TestimonialsArray" class="card" v-for="item of TestimonialsArray" :key="item.id">
 <div class="col-sm-5 img-div">
   <img :src="item.image" :alt="item.name">
 </div>
@@ -42,6 +42,10 @@
   </div>
 </div>
 
+<div v-else>
+<VElseView></VElseView>
+</div>
+
   </div>
 </div>
 
@@ -52,8 +56,9 @@
 </template>
 
 <script>
+import VElseView from './V-ElseView.vue';
 export default {
-    name: 'Testimonials',
+    name: "Testimonials",
     data() {
         return {
             "TestimonialsArray": [
@@ -90,7 +95,7 @@ export default {
                     "image": "https://i.postimg.cc/26w4NSZP/Jared-2-removebg-preview.png",
                     "name": "Jared Isaacs",
                     "title": "Colleague",
-                    "text": "Shane is an outgoing, hardworking, creative web developer. Who	sets out to achieve his goals through perseverance and determination. As his colleague I see a bright future filled with prosperity being set in front of him, with his iron will to overcome any impediments that comes he way. As such he has the set skills to fulfill any task that will be given to him, making him a great asset to any business or company."
+                    "text": "Shane is an outgoing, hardworking, creative web developer. Who\tsets out to achieve his goals through perseverance and determination. As his colleague I see a bright future filled with prosperity being set in front of him, with his iron will to overcome any impediments that comes he way. As such he has the set skills to fulfill any task that will be given to him, making him a great asset to any business or company."
                 },
                 {
                     "id": 6,
@@ -100,8 +105,7 @@ export default {
                     "text": "Shane always shows the best qualities, such as being fast learning, hardworking individual that always displays great understanding of any topic he is presented with. it is with these qualities that I recommend Shane Stevens"
                 }
             ]
-        }
-
+        };
     },
     mounted() {
         this.$refs.owl.owlCarousel({
@@ -129,6 +133,7 @@ export default {
             }
         });
     },
+    components: { VElseView }
 }
 
 

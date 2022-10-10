@@ -91,9 +91,15 @@
             <!-- button -->
             <div class="row justify-content-center">
  <div class="col-lg-12 col-sm-8 text-center">
-              <button class="btn-layout3 b3 text-center my-3" type="submit">
-                <span class="text-center">Submit</span>
-              </button>
+              <button
+              class="my-3 b btn-layout w-75"
+              type="submit"
+             
+              onclick="this.classList.toggle('button--loading')"
+            >
+              <span class="button__text">Submit</span>
+            </button>
+
             </div>
             </div>
            
@@ -155,73 +161,60 @@ textarea:hover {
     padding: 5px;
 }
 
-/* BUTTON3 */
-button a {
-  transition: all 0s ease-in-out;
-  color: rgb(64, 62, 62);
+/* button */
+button {
+  text-align: center;
 }
-
-button a:hover {
+.btn-layout,
+.b {
+  text-align: center;
+  margin: 0 5px 0 0;
+  position: relative;
+  opacity: 0.999;
+  padding: 8px 8px;
+  text-align: center;
+  background-color: rgb(212, 212, 212);
   color: rgb(0, 0, 0);
+  border-radius: 3px;
+  border: none;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
 }
-
-button:hover {
-  transition: all 0.5s ease-in-out;
-  box-shadow: 0px 0px 50px 3px rgba(0, 206, 255, 0.7);
-}
-
-.b3:before {
-  transition: all 0.5s ease-in-out;
+.b:before {
+  text-align: center;
+  transition: all 0.3s ease-in-out;
   content: "";
   width: 0;
   height: 100%;
   position: absolute;
   background-color: rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   left: 0;
   top: 0;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
   z-index: -1;
 }
-
-.b3:hover:before {
-  color: rgb(255, 255, 255);
-  box-shadow: 12px 31px 37px rgba(0, 0, 0, 0.5);
+.b:hover:before {
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
   width: 100%;
   left: auto;
   right: 0;
 }
-
-.btn-layout3,
-.bttn3 {
-  margin-top: 10px;
-  display: inline-flex;
-  margin: 0 5px 0 0;
-  position: relative;
-  opacity: 0.999;
-  padding: 10px 10px;
-  text-align: center;
+.btn-layout:hover {
   color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.07);
-  border-radius: 3px;
-  border: none;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  overflow: hidden;
-  margin-left: 1%;
-  width: 82.5%;
-  text-align: center;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 0px 20px 3px goldenrod;
 }
+
 
 a {
   color: black;
