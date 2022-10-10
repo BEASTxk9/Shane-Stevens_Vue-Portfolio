@@ -146,7 +146,7 @@ export default {
   z-index: 1;
   padding-top: 3rem;
   padding-bottom: 0rem;
-  scroll-margin-block-start: 19.7rem;
+  /* scroll-margin-block-start: 19.7rem; */
 }
 
 .owl-carousel{

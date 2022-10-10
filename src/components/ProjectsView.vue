@@ -414,7 +414,7 @@ export default {
 #projects {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  scroll-margin-block-start: 17.5rem;
+  /* scroll-margin-block-start: 17.5rem; */
 }
 
 .projects-container {

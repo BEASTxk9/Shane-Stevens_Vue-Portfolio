@@ -101,7 +101,7 @@ export default {
 #resume{
   padding-top: 5rem;
   gap: 1rem;
-  scroll-margin-block-start: 19rem;
+  /* scroll-margin-block-start: 19rem; */
  
 }
 

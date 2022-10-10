@@ -12,24 +12,17 @@
      
     </div>
     <!-- button -->
-    <button
-      class="navbar-toggler b1 text-white bg-dark"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNavAltMarkup"
-    >
-      <span
-        ><i id="icon" class="fa-solid fa-bars"></i></span>
-    </button>
+    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i id="burger" class="fa-solid fa-bars"></i></button>
 
     <!-- button content -->
-    <div
-      class="collapse navbar-collapse justify-content-end"
-      id="navbarNavAltMarkup"
-    >
-      <div class="navbar-nav">
-        <!-- links -->
-                    <ul class="navbar-nav">
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h1 id="offcanvasTopLabel" class="text-bold px-4">MENU</h1>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link mb-0 h5 " href="#about">01-About</a>
                         </li>
@@ -45,14 +38,24 @@
                         <li class="nav-item">
                             <a class="nav-link mb-0 h5" href="#contact">05-Contact</a>
                         </li>
-                    </ul>
-
-        <div class="text-end py-1">
-          <p>&copy;Made by Shane Stevens,2022</p>
+    </ul>
+  </div>
+<hr id="nav-rights">
+  <div id="nav-rights" class="container">
+<div class="row justify-content-center">
+   <div class="col-sm-12 text-center py-1">
+          <p>Copyright &copy; 2022 All Rights Reserved by 
+         Shane Stevens.</p>
         </div>
-      </div>
-    </div>
+
+</div>
+  </div>
+
+   
+</div>
   </nav>
+
+  
 </template>
 
 <script>
@@ -60,14 +63,9 @@ export default {};
 </script>
 
 <style scoped>
-.collapse{
-  transition: all 0.1s ease-in-out;
-  position: relative;
-  top: -3.2rem;
- background: rgba(255, 255, 255, 0.514);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5.4px);
--webkit-backdrop-filter: blur(5.4px);
+.offcanvas{
+height: fit-content;
+overflow-x: hidden;
 }
 
 nav {
@@ -75,30 +73,9 @@ nav {
   transition: all 0.5s ease-in-out;
 }
 
-nav:hover{
-  
-}
-
-nav a {
-  font-size: 1.5rem;
-	text-align: center;
-	justify-content: center;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.897);
-  text-decoration: line-through rgba(0, 0, 0, 0.489);
-  transition: all 0.4 ease-in-out;
-}
-
-nav a:hover {
-	text-align: center;
-	justify-content: center;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-  text-shadow: 5px 5px 5px rgba(14, 227, 247, 1);
-}
-
 a{
+  color: black;
+  text-decoration: line-through;
   margin-top: 1rem;
   margin-left: 2rem;
   padding-left: 1rem;
@@ -108,7 +85,22 @@ a{
   width: fit-content;
 }
 
+a:active{
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+}
+
+a:hover{
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  color: black;
+}
+
 #icon{
+  font-size: 2rem;
+}
+
+#burger{
   font-size: 2rem;
 }
 
@@ -157,6 +149,10 @@ a{
 
 .navbar-toggler{
   margin-right: 5px;
+}
+
+#nav-rights{
+  display: none;
 }
 }
 </style>

@@ -119,7 +119,7 @@ export default {};
 
 <style scoped>
 #contact {
-    scroll-margin-block-start: 23rem;
+    /* scroll-margin-block-start: 23rem; */
   padding-bottom: 10vh;
 }
 /* form */

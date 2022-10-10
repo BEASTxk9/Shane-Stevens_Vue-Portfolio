@@ -181,7 +181,7 @@ components: {
 /* sections */
 #about {
   padding-bottom: 5rem;
-  scroll-margin-block-start: 18em;
+  /* scroll-margin-block-start: -10em; */
 }
 
 /* img */
