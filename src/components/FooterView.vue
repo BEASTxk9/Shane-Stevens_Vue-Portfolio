@@ -1,6 +1,6 @@
 <template>
  <!-- Site footer -->
- <footer class="site-footer">
+ <footer>
       <div class="container">
         <div class="row justify-content-center text-start">
 
@@ -9,7 +9,7 @@
           <!-- my contact info -->
           <div id="contact-info" class="container text-center px-5 py-5">
             <div class="row justify-content-center">
-                <h1 class="pb-2 text-white">Get in touch.</h1>
+                <h1 class="text-white">Get in touch.</h1>
               <!-- phone no -->
               <div class="col-sm-12 col-md-4">
                 <a href="tel:06708596682"
@@ -39,7 +39,6 @@
             </div>
           </div>
         </div>
-
         </div>
         <hr>
       </div>
