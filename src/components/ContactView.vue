@@ -212,7 +212,7 @@ button {
 .btn-layout:hover {
   color: rgb(0, 0, 0);
   transition: all 0.5s ease-in-out;
-  box-shadow: 0px 0px 20px 3px goldenrod;
+  box-shadow: 0px 0px 20px 3px rgb(32, 218, 218);
 }
 
 
