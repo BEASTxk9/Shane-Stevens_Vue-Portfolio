@@ -183,7 +183,7 @@ section{
 
 /* button loader */
 .button__text {
-  font: bold 20px "Quicksand", san-serif;
+  font: bold 20px;
   transition: all 0.2s;
 }
 .button--loading .button__text {
