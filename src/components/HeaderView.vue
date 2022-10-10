@@ -1,61 +1,12 @@
 <template>
-
-<!-- data -->
-<div id="data" class="container">
-    <!-- type writer -->
-    <div class="container typewriter-container">
-      <transition name="slide-right" appear>
-        <h1 class="typewriter-text">
-          <a
-            href="#about"
-            class="typewrite text-white"
-            data-period="2500"
-            data-type='[ "Hi there,", "Im Shane Stevens,"]'
-          >
-          </a>
-        </h1>
-      </transition>
-    </div>
-    <!-- subheading -->
-    <div class="container">
-
-      <div class="row">
-        <transition name="fade" appear>
-          <h2>Aspiring Web Developer & Designer</h2>
-        </transition>
-      </div>
-
-      <div class="row">
-        <transition name="slide-left" appear>
-          <p id="landing-sub2" class="h5 py-5">
-            DISCIPLINED
-            <img
-              src="https://i.postimg.cc/rsGPYxWd/noun-naruto-3129058.png"
-              width="30px"
-              height="30px"
-            />
-            DEDICATED
-            <img
-              src="https://i.postimg.cc/rsGPYxWd/noun-naruto-3129058.png"
-              width="30px"
-              height="30px"
-            />
-            DIFFERENT
-          </p>
-        </transition>
-      </div>
-
-<div class="row justify-content-center text-center">
-<div class="col-2">
-    <transition name="fade" appear>
-<h4 >SCROLL DOWN</h4>
-    </transition>
-</div>
-</div>
-
-    </div>
-</div>
-
+  <section id="header" class="showcase w-100" defer>
+    <!-- background-vid -->
+<div class="video-container">
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;" autoplay><iframe src="https://streamable.com/e/pe9vjl?autoplay=1&nocontrols=1" frameborder="0" allowfullscreen autoplay loop allow="autoplay loop" style="position:absolute;left:0px;top:0px;overflow:hidden;" defer></iframe></div>
+  
+	</div>
+    
+  </section>
 </template>
 
 <script>
@@ -122,23 +73,15 @@ export default {};
 </script>
 
 <style scoped>
+
 #header {
     position: fixed;
-  color: white;
   overflow-x: hidden;
   z-index: -1;
- background-color: grey;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 30vh;
   height: 100vh;
-  font-size: 5rem;
-text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.882);
-}
-
-#data{
-    position: relative;
-    top: -5rem;
 }
 
 img {
@@ -150,5 +93,69 @@ img {
   text-decoration: none;
 }
 
+/* landing */
+.showcase {
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
 
+.video-container {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+}
+
+iframe{
+margin-top: -10vh;
+height: 100%;
+width: 100%;
+}
+
+.video-container{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.video-container:after {
+    content: '';
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+
+@media only screen and (max-width: 1250px) {
+  #header {
+    width: auto;
+    overflow-x: hidden;
+  }
+
+  .typewrite{
+    font-size: 3rem;
+  }
+
+  iframe{
+    width: 400%;
+    height: 400%;
+  }
+}
 </style>

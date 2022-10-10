@@ -1,6 +1,66 @@
 <template>
+  <section >
+<!-- data -->
+<div id="data" class="container">
+    <!-- type writer -->
+    <div class="container typewriter-container">
+      <transition name="slide-right" appear>
+        <h1 class="typewriter-text">
+          <a
+            href="#about"
+            class="typewrite text-white"
+            data-period="2500"
+            data-type='[ "Hi there,", "Im Shane Stevens,"]'
+          >
+          </a>
+        </h1>
+      </transition>
+    </div>
+    <!-- subheading -->
+    <div class="container">
+
+      <div class="row">
+        <transition name="fade" appear>
+          <h2>Aspiring Web Developer & Designer</h2>
+        </transition>
+      </div>
+
+      <div class="row">
+        <transition name="slide-left" appear>
+          <p id="landing-sub2" class="h5 py-5">
+            DISCIPLINED
+            <img
+              src="https://i.postimg.cc/rsGPYxWd/noun-naruto-3129058.png"
+              width="30px"
+              height="30px"
+            />
+            DEDICATED
+            <img
+              src="https://i.postimg.cc/rsGPYxWd/noun-naruto-3129058.png"
+              width="30px"
+              height="30px"
+            />
+            DIFFERENT
+          </p>
+        </transition>
+      </div>
+
+<div class="row justify-content-center text-center">
+<div class="col-2">
+    <transition name="fade" appear>
+<h4 >SCROLL DOWN</h4>
+    </transition>
+</div>
+</div>
+
+    </div>
+</div>    
+  </section>
+
+
 <!-- Main -->
 <main>
+  <NavBar></NavBar>
   <div class="row justify-content-end">
     <button
       onclick="topFunction()"
@@ -39,6 +99,7 @@ import Testimonial from "../components/TestimonialView.vue";
 import Projects from "../components/ProjectsView.vue";
 import Contact from "../components/ContactView.vue";
 import HeaderView from "@/components/HeaderView.vue";
+import NavBar from "@/components/NavBar.vue";
 
 export default {
 
@@ -49,7 +110,8 @@ export default {
     Testimonial,
     Projects,
     Contact,
-    HeaderView
+    HeaderView,
+    NavBar
 }
 }
 </script>
@@ -76,5 +138,17 @@ export default {
   transform: scaleY(10px);
   transform: scale(1.3);
   opacity: 1;
+}
+
+#data{
+  color: white;
+    position: relative;
+    top: 5rem;
+text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.882);
+}
+
+.typewriter-text, a{
+  font-size: 5rem;
+  text-decoration: none;
 }
 </style>
