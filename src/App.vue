@@ -70,7 +70,6 @@ section{
     background-color: transparent;
 }
 
-
 /* headings */
 .heading {
   font-weight: 1000;

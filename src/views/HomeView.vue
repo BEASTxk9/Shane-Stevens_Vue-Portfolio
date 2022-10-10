@@ -1,6 +1,16 @@
 <template>
 <!-- Main -->
 <main>
+  <div class="row justify-content-end">
+    <button
+      onclick="topFunction()"
+      id="myBtn"
+      class="rounded-pill fixed-bottom"
+      title="Auto Scroll Top."
+    >
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+  </div>
 <!-- About -->
 
 <About />
@@ -15,6 +25,7 @@
 <!-- Contact -->
 <!-- <div id="contact"></div> -->
 <Contact />
+
 
 </main>
 
@@ -44,5 +55,26 @@ export default {
 </script>
 
 <style scoped>
-
+/* auto scroll top */
+#myBtn {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  width: 49px;
+  justify-content: end;
+  align-content: flex-end;
+  text-align: end;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  transition: all 0.3s ease-in-out;
+  left: 10px;
+  box-shadow: 0px 0px 42px rgb(18, 172, 183);
+  opacity: 0.5;
+}
+#myBtn:hover {
+  background-color: rgb(0, 0, 0);
+  transform: scaleY(10px);
+  transform: scale(1.3);
+  opacity: 1;
+}
 </style>
