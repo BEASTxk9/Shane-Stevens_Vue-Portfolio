@@ -108,30 +108,44 @@ export default {
         };
     },
     mounted() {
-        this.$refs.owl.owlCarousel({
-            autoplay: true,
+      $(function() {
+  // Owl Carousel
+  var owl = $(".owl-carousel");
+  owl.owlCarousel({
+    items: 3,
+    margin: 10,
+    autoplay: true,
             loop: true,
             dots: false,
             nav: false,
+            nav: true,
             responsiveClass: true,
             responsive: {
                 0: {
                     items: 1,
                     nav: false,
-                    dots: false
+                    dots: false,
+                    responsiveClass: true,
                 },
                 800: {
                     items: 2,
                     nav: false,
-                    dots: false
+                    dots: false,
+                    responsiveClass: true,
                 },
                 1000: {
                     items: 3,
                     nav: false,
-                    dots: false
+                    dots: false,
+                    responsiveClass: true,
                 }
             }
-        });
+   
+  });
+});
+$(document).on('click', function () {
+        $('.collapse').collapse('hide');
+    })
     },
     components: { VElseView }
 }

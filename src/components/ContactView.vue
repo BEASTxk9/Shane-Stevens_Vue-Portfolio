@@ -21,9 +21,9 @@
 
     <div class="container justify-content-center">
       <div class="row justify-content-center">
-        <div class="col-sm-12">
+       
         <!-- Form-left -->
-        <div id="form" class="col-lg-8 col-md-8 mt-5">
+        <div id="form" class="col-lg-8 col-md-8 col-sm-12 mt-5 justify-content-center">
           <form action="https://formspree.io/f/xayvpewl" method="post">
             <h2 id="subheading" class="pt-3">Let's Get In Contact.</h2>
             <div class="row justify-content-center">
@@ -106,7 +106,7 @@
           </form>
         </div>
 
-        </div>
+      
 
       </div>
     </div>
@@ -124,6 +124,7 @@ export default {};
 }
 /* form */
 #form {
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease-in-out;
   box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.692);

@@ -35,11 +35,7 @@
         <li>{{ item.title }}</li>
         <li>{{ item.skill }}</li>
         <li>{{ item.li }}</li>
-          
-          
-          
-          
-          
+
         </div>
       </div>
     </div>
