@@ -26,11 +26,11 @@
 <div class="home-demo">
   <div class="owl-carousel owl-theme">
 
-    <div v-if="TestimonialsArray" class="card" v-for="item of TestimonialsArray" :key="item.id">
-<div class="col-sm-5 img-div">
+    <div v-if="TestimonialsArray" class="col-md-5 card" v-for="item of TestimonialsArray" :key="item.id">
+<div class="col-sm-4 col-md-2 img-div">
   <img :src="item.image" :alt="item.name">
 </div>
-  <div class="card-info">
+  <div class="card-info col-sm-12 col-md-7 col-lg-6">
     <h3>{{ item.name }}</h3>
     <h4 class="text-title">
       {{ item.title }}
@@ -128,13 +128,13 @@ export default {
                     responsiveClass: true,
                 },
                 800: {
-                    items: 2,
+                    items: 1,
                     nav: false,
                     dots: false,
                     responsiveClass: true,
                 },
                 1000: {
-                    items: 3,
+                    items: 1,
                     nav: false,
                     dots: false,
                     responsiveClass: true,
@@ -165,8 +165,7 @@ $(document).on('click', function () {
 
 .owl-carousel{
 
-  
-    padding-top: 3rem;
+padding-top: 3rem;
 overflow-x: hidden;
 
 }
@@ -188,8 +187,9 @@ p{
 /* From uiverse.io by @alexruix */
 /*Magic card*/
 .card {
+  width: fit-content;
   margin-top: 10vh;
-  height: 72vh;
+  height: 60vh;
  background: #f5f5f5;
  overflow: visible;
  box-shadow: 0 5px 20px 2px rgba(0,0,0,0.1);
@@ -245,10 +245,31 @@ img::before {
  font-style: italic;
 } */
 
+@media only screen and (max-width: 1025px){
+
+.card{
+  height: 80vh;
+}
+}
+
 @media only screen and (max-width: 767px){
 
 .card{
-  height: 35rem;
+  height: 70vh;
+}
+}
+
+@media only screen and (max-width: 580px){
+
+.card{
+  height: 90vh;
+}
+}
+
+@media only screen and (max-width: 400px){
+
+.card{
+  height: 100vh;
 }
 }
 </style>
