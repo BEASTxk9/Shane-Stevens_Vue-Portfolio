@@ -54,9 +54,9 @@
         <!-- calculator -->
         	<img class="projectimg" data-bs-toggle="modal" data-bs-target="#exampleModal6"
 								src="https://i.postimg.cc/jqc2RPGD/calculator.png" />
-<!-- rainbow -->
+<!-- healthtracker -->
 							<img class="projectimg" data-bs-toggle="modal" data-bs-target="#exampleModal5"
-								src="https://i.postimg.cc/4y2XVbgw/project-rainbow.png" />
+								src="https://i.postimg.cc/zfpmdXcL/Screenshot-2022-11-01-142956.png" />
       </div>
     </div>
 
@@ -260,7 +260,7 @@
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLabel5">Project-Rainbow</h5>
+								<h5 class="modal-title" id="exampleModalLabel5">Health Tracker App</h5>
 								<button type="button" class="btn-close" data-bs-dismiss="modal"
 									aria-label="Close"></button>
 							</div>
@@ -268,19 +268,19 @@
 								<div class="container">
 									<div class="row">
 										<div class="col-md-6">
-											<img class="image-fluid" src="https://i.postimg.cc/4y2XVbgw/project-rainbow.png" width="100%"
+											<img class="image-fluid" src="https://i.postimg.cc/zfpmdXcL/Screenshot-2022-11-01-142956.png" width="100%"
 												height="100%">
 										</div>
-										<div class="col-md-6">Project-Rainbow was created using HTML & CSS.</div>
+										<div class="col-md-6">This Health Tracker was created using Vuetify.</div>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-dark text-primary" data-bs-dismiss="modal"><a
-										class="text-primary" href="https://github.com/BEASTxk9/project-rainbow"
+										class="text-primary" href="https://github.com/BEASTxk9/vuetify-heathtracker"
 										target="_blank">Github</a></button>
 								<button type="button" class="btn btn-dark text-primary">
-									<a class="text-primary" href="https://project-rainbow.netlify.app"
+									<a class="text-primary" href="https://shanestevens-healthtracker.netlify.app/#/"
 										target="_blank">Live</a></button>
 							</div>
 						</div>
